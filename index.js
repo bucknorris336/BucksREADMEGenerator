@@ -9,18 +9,52 @@ function initPromp() {
   return inquirer.prompt([
     {
       type: "input",
-      message: "What is your name?",
-      name: "name",
+      message: "What is your title of your project?",
+      name: "title",
     },
     {
       type: "input",
-      message: "Where did you grow up?",
-      name: "grow",
+      message: "Write a brief description of your project: ",
+      name: "description",
     },
     {
       type: "input",
-      message: "What do you like to do for fun?:",
-      name: "fun",
+      message: "Describe the installation process if any: ",
+      name: "installation",
+    },
+    {
+      type: "input",
+      name: "usage",
+      message: "What is this project usage for?",
+    },
+    {
+      type: "list",
+      name: "license",
+      message: "Chose the appropriate license for this project: ",
+      choices: [
+        "Apache (Apache-2.0)",
+        "BSD-3-Clause",
+        "BSD-2-Clause",
+        "GNU (LGPL)",
+        "MIT",
+        "Mozilla (MPL-2.0)",
+        "Common Development and Distribution License 1.0 (CDDL-1.0)",
+      ],
+    },
+    {
+      type: "input",
+      message: "Who are the contributors of this projects?",
+      name: "contributing",
+    },
+    {
+      type: "input",
+      message: "What is your GitHub username?:",
+      name: "username",
+    },
+    {
+      type: "input",
+      message: "What is your email address?",
+      name: "email",
     },
   ]);
 }
@@ -34,7 +68,7 @@ function writeToFile(fileName, data) {
 }
 function generateData(data) {
   return `${data.name}
-   ${data.grow}
+   ${data.email}
    ${data.fun}
   `;
 }
@@ -52,3 +86,11 @@ init();
 //inquirer@8.2.4
 
 // npm i = install the package json
+
+// function generateMarkdown(data) {
+
+// return `# ${data.title}
+// ## license
+// ${renderLicenseBadge(license)} //possible problem #2?
+// '
+// }
