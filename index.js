@@ -24,12 +24,11 @@ function initPromp() {
     },
     {
       type: "input",
-      name: "usage",
       message: "What is this project usage for?",
+      name: "usage",
     },
     {
       type: "list",
-      name: "license",
       message: "Chose the appropriate license for this project: ",
       choices: [
         "Apache (Apache-2.0)",
@@ -40,6 +39,7 @@ function initPromp() {
         "Mozilla (MPL-2.0)",
         "Common Development and Distribution License 1.0 (CDDL-1.0)",
       ],
+      name: "license",
     },
     {
       type: "input",
