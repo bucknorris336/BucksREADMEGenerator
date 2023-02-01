@@ -1,32 +1,31 @@
-# BucksREADMEGenerator
-Description
-🔍 A node.js application that uses user input from inquirer to populate a README.md file for user repository. The README.md file is created in the dist directory and can be found
-- What was your motivation?
-At the end of the day, when starting a new project, I find that most of the time I want to just get going and not waste my time or brain power formatting/creating a README from scratch. I wanted it to be easier for myself and others to just get the ball rolling. 
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-I created this so that I or anyone who finds this can quickly create a professional README for a new project with ease.
-- What did you learn?
+# bucks
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+   ## iabvaliubev;au;ba
 
+   ## Table of Contents 
 
+* [Installation](#installation)
 
+* [Usage](#usage)
 
+undefined
 
-Installation
-________________________________________________________________________
-💾
+* [Contributing](#contributing)
 
-npm init
+* [Tests](#tests)
 
-npm install inquirer
+* [Questions](#questions)
 
-Usage
-________________________________________________________________________
-💻
+## Instiation 
 
-Run the following command at th root of your project and answer the prompted questions:
+   aiualoriubv;ads
 
-node index.js
+   ## Usage 
+   lbilabu;acewac 
 
-Contributing
-________________________________________________________________________
+## Contributing 
+
+   blaiublaucewa
+
+  If you have any questions about the repo, open an issue or contact me directly at libvaubrv;av. You can find more of my work at [bliublalwea](https://github.com/bliublalwea/).
+  

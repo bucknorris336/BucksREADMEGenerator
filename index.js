@@ -1,6 +1,6 @@
 // TODO: Include packages needed for this application
 const fs = require("fs");
-
+const generateMarkdown = require("./utils/generateMarkdown");
 const inquirer = require("inquirer");
 
 // TODO: Create an array of questions for user input
@@ -30,15 +30,7 @@ function initPromp() {
     {
       type: "list",
       message: "Chose the appropriate license for this project: ",
-      choices: [
-        "Apache (Apache-2.0)",
-        "BSD-3-Clause",
-        "BSD-2-Clause",
-        "GNU (LGPL)",
-        "MIT",
-        "Mozilla (MPL-2.0)",
-        "Common Development and Distribution License 1.0 (CDDL-1.0)",
-      ],
+      choices: ["MIT", "APACHE2.0", "GPL3.0", "BSD3", "None"],
       name: "license",
     },
     {
@@ -49,7 +41,7 @@ function initPromp() {
     {
       type: "input",
       message: "What is your GitHub username?:",
-      name: "username",
+      name: "github",
     },
     {
       type: "input",
@@ -66,18 +58,13 @@ function writeToFile(fileName, data) {
     }
   });
 }
-function generateData(data) {
-  return `${data.name}
-   ${data.email}
-   ${data.fun}
-  `;
-}
 
 // TODO: Create a function to initialize app
 function init() {
-  initPromp().then((response) =>
-    writeToFile("README.md", generateData(response))
-  );
+  initPromp().then((response) => {
+    console.log("response", response);
+    writeToFile("README.md", generateMarkdown(response));
+  });
 }
 
 // Function call to initialize app
