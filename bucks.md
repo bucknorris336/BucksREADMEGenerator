@@ -1,6 +1,7 @@
 # BucksREADMEGenerator
 ## Check Out a short video walkthrough 
 
+!(https://drive.google.com/file/d/1kaD_0BNGMDNjcO7x9-gchMPtBCtLIV4O/view?usp=sharing)
 
 Description
 
