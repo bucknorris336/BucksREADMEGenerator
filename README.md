@@ -3,8 +3,7 @@
 ## Check Out a short video walkthrough
 
 📽️
-
-<iframe src="https://drive.google.com/file/d/1kaD_0BNGMDNjcO7x9-gchMPtBCtLIV4O/preview" width="640" height="480" allow="autoplay"></iframe>
+[Click here](https://drive.google.com/file/d/1kaD_0BNGMDNjcO7x9-gchMPtBCtLIV4O/view?usp=share_link)
 
 Description
 
