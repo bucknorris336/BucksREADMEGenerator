@@ -47,7 +47,7 @@ ${renderLicenseLink(data.license)}
 
 * [Questions](#questions)
 
-## Instiation 
+## Installation 
 
    ${data.installation}
 
