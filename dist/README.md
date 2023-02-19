@@ -1,33 +1,39 @@
-# Bucks Project
-
+# Buck's README
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+   ## README generator
 
-## It is a README generator
+   ## Table of Contents 
 
-## Table of Contents
+* [Installation](#installation)
 
-- [Installation](#installation)
+* [Usage](#usage)
 
-- [Usage](#usage)
 
-- [License](#license)
+* [License](#license)
 
-- [Contributing](#contributing)
 
-- [Tests](#tests)
+* [Contributing](#contributing)
 
-- [Questions](#questions)
+* [Tests](#tests)
 
-## Installation
+* [Questions](#questions)
 
-npm install
+## Installation 
+---
 
-## Usage
+💾
+   npm install
 
-README Generator
+   ## Usage 
+   ---
 
-## Contributing
+💻
 
-Buck Blocker
+   README Generator 
 
-If you have any questions about the repo, open an issue or contact me directly at buckblocker90@gmail.com. You can find more of my work at [bucknorris336](https://github.com/bucknorris336/).
+## Contributing 
+
+   Buck Blocker
+
+  If you have any questions about the repo, open an issue or contact me directly at buckblocker90@gmail.com. You can find more of my work at [bucknorris336](https://github.com/bucknorris336/).
+  
